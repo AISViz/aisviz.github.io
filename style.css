@@ -54,3 +54,26 @@ body {
 .footer .footer-link:hover {
     text-decoration: underline;
 }
+
+.citation-container {
+    margin-top: 20px;
+    background-color: rgba(108, 117, 125, 0.1); /* Light gray, almost transparent */
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #495057; /* Slightly darker text for readability */
+    max-width: 28%; /* Control the width of the citation container */
+    word-wrap: break-word; /* Ensure long words do not overflow */
+    text-align: justify; /* Justify the text for better readability */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+}
+
+.citation-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.citation-link:hover {
+    text-decoration: underline;
+}
