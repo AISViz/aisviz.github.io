@@ -33,3 +33,26 @@ body {
 .btn-group > a:not(:last-child) {
     margin-right: 10px;
 }
+
+.footer {
+    background-color: #f8f9fa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.footer .footer-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer .footer-link:hover {
+    text-decoration: underline;
+}
