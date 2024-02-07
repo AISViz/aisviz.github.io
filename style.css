@@ -1,50 +1,21 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    font-family: 'Arial', sans-serif;
-    background: url('ocean-background.jpg') no-repeat center center fixed;
+body {
+    background: linear-gradient(rgba(0, 123, 255, 0.5), rgba(0, 123, 255, 0.5)), url('your-background-image.jpg') no-repeat center center fixed;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #212529;
 }
 
-.hot-container {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 80%;
-    max-width: 600px;
+.btn-info.text-white {
+    background-color: #005f73 !important; /* A darker shade for buttons */
+    border-color: #005f73 !important;
 }
 
-h1 {
-    color: #005f73;
+.btn-info.text-white:hover {
+    background-color: #0077b6 !important; /* Slightly lighter shade on hover */
+    border-color: #0077b6 !important;
 }
 
-p {
-    margin: 20px 0;
-    color: #333;
-}
-
-.links-section {
-    margin-top: 30px;
-}
-
-.hot-link {
-    display: inline-block;
-    background-color: #0077b6;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin: 10px;
-    transition: background-color 0.3s;
-}
-
-.hot-link:hover {
-    background-color: #005f73;
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
