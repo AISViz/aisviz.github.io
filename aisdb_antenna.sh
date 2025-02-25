@@ -9,7 +9,7 @@
 # # see `mproxy-client --help` for more info
 # SERVER_ADDRESS="aisviz.cs.dal.ca:9921"
 DEFAULT_SERVER="aisviz.cs.dal.ca:9921"
-read -p "Enter server address (default: $DEFAULT_SERVER): " SERVER_INPUT
+read -p $'\033[32mEnter server address (default: '"$DEFAULT_SERVER"$'): \033[0m' SERVER_INPUT
 SERVER_ADDRESS=${SERVER_INPUT:-$DEFAULT_SERVER}
 
 set -e
