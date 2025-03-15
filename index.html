@@ -19,7 +19,18 @@
             <a href="https://aisviz.gitbook.io/documentation/" class="btn btn-lg btn-outline-secondary" style="font-weight: 500;"><i class="fas fa-book"></i> Tutorials</a>
             <a href="https://aisviz.cs.dal.ca/AISdb/" class="btn btn-lg btn-outline-secondary" style="font-weight: 500;"><i class="fas fa-cogs"></i> API</a>
             <a href="https://github.com/AISViz" class="btn btn-lg btn-outline-secondary" style="font-weight: 500;"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://chat.openai.com/g/g-hTTH0rUBv-aisdb-assistant" class="btn btn-lg btn-outline-secondary" style="font-weight: 500;"><i class="fas fa-solid fa-robot"></i> Chatbot</a>
+            
+            <!-- Chatbot Dropdown Button -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-lg btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-solid fa-robot"></i> Chatbot
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://huggingface.co/spaces/vaishnaveswar/AIVIZ-BOT">RAG-based Chatbot</a>
+                    <a class="dropdown-item" href="https://chat.openai.com/g/g-hTTH0rUBv-aisdb-assistant">GPT-based Chatbot</a>
+                </div>
+            </div>
+            
             <a href="mailto:aisviz@dal.ca" class="btn btn-lg btn-outline-secondary" style="font-weight: 500;"><i class="fas fa-envelope"></i> Contact Us</a>
         </div>
     </div>
@@ -29,6 +40,7 @@
     <div class="container text-center"><span class="text-muted">Copyright &copy; 2024-2029, <a href="https://mapslab.cs.dal.ca/" class="footer-link">Modeling and Analytics on Predictive Systems (MAPS)</a></span></div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
 <script src="all.min.js"></script>
 </body>
