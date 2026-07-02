@@ -1,8 +1,8 @@
 # AISViz Website
 
 Static website for the [AISViz](https://github.com/AISViz) project, a research initiative at
-Dalhousie University focused on making Automatic Identification System (AIS) vessel-tracking data
-accessible through open-source tools.
+Dalhousie University focused on making maritime informatics accessible to everyone through
+open-source tools built around Automatic Identification System (AIS) data.
 
 The site is served by GitHub Pages at [https://aisviz.cs.dal.ca](https://aisviz.cs.dal.ca) (custom
 domain configured in `CNAME`). Every push to `main` deploys automatically, so no workflow or build
