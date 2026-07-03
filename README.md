@@ -1,6 +1,6 @@
 # AISViz Website
 
-Static website for the [AISViz](https://github.com/AISViz) project, a research initiative at
+Static website for the [AISViz](https://github.com/MAPS-Lab) project, a research initiative at
 Dalhousie University focused on making maritime informatics accessible to everyone through
 open-source tools built around Automatic Identification System (AIS) data.
 
@@ -39,13 +39,13 @@ Then visit http://localhost:8000.
 
 ## Related projects
 
-- [AISdb](https://github.com/AISViz/AISdb) is the Python package for smart AIS data storage and
+- [AISdb](https://github.com/MAPS-Lab/AISdb) is the Python package for smart AIS data storage and
   integration.
-- [AISdb-lite](https://github.com/AISViz/AISdb-lite) is a lightweight version of AISdb with
+- [AISdb-lite](https://github.com/MAPS-Lab/AISdb-lite) is a lightweight version of AISdb with
   spatio-temporal capabilities on PostGIS and TigerData.
-- [NOAA-Integrator](https://github.com/AISViz/NOAA-Integrator) acquires and processes Marine
+- [NOAA-Integrator](https://github.com/MAPS-Lab/AISdb-NOAA-Integrator) acquires and processes Marine
   Cadastre AIS data into an AISdb-aligned database.
-- [Tutorials](https://github.com/AISViz/Tutorials) holds hands-on Jupyter notebooks that walk
+- [Tutorials](https://github.com/MAPS-Lab/AISdb-Tutorials) holds hands-on Jupyter notebooks that walk
   through AISdb, from database loading to bathymetry.
 
 ## License
