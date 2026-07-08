@@ -30,7 +30,8 @@ body {
     font-size: 4.5rem;
 }
 
-.btn-group > a:not(:last-child) {
+.btn-group > a:not(:last-child),
+.btn-group > .btn-group:not(:last-child) {
     margin-right: 10px;
 }
 
